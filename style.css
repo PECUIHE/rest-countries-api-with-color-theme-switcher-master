@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background: hsl(0, 0%, 98%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.header {
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.5);
+}
+
+header h2 {
+    font-weight: 800;
+}
+
+button {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.1);
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: hsl(0, 3%, 78%);
+}
+
+.controls input {
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.controls input::placeholder {
+    color: hsl(0, 3%, 78%);
+    font-size: 12px;
+}
+
+.dropdownMenu {
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.1);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.dropdown:hover {
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+.drop-options {
+    display: none;
+    position: absolute;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background: hsl(0, 0%, 100%);
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.drop-options p {
+    margin: 5px 0;
+}
+
+.drop-options p:hover {
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+}
+
+.show-options {
+    display: block;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.country {
+    width: 250px;
+    min-height: 320px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.country-img {
+    width: 250px;
+}
+
+.country-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.country-details {
+    padding: 20px 25px;
+}
+
+.country-details h3 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.dark-mode {
+    background: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 98%);
+}
+
+.element {
+    background: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 98%);
+}
+
