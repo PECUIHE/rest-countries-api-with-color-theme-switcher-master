@@ -106,7 +106,7 @@ regions.forEach(region => {
 
 toggle.addEventListener('click', e => {
     document.body.classList.toggle('dark-mode');
-    toggle.classList.toggle('dark-mode');
+    toggle.classList.toggle('dark-element');
     icon.classList.toggle('bxs-moon');
     header.classList.toggle('dark-element');
     search.classList.toggle('dark-element');
