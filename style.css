@@ -10,9 +10,15 @@ body {
     font-family: 'Nunito Sans';
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
     background: hsl(0, 0%, 98%);
+}
+
+main {
+    width: 100%;
 }
 
 .container {
@@ -20,7 +26,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
     gap: 20px;
 }
 
@@ -147,7 +153,7 @@ button {
     color: hsl(0, 0%, 98%);
 }
 
-.element {
+.dark-element {
     background: hsl(209, 23%, 22%);
     color: hsl(0, 0%, 98%);
 }
