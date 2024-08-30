@@ -58,7 +58,7 @@ button {
 
 .controls input {
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -122,14 +122,15 @@ button {
 }
 
 .country {
-    width: 250px;
+    width: 100%;
+    max-width: 400px;
     min-height: 320px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
 
 .country-img {
-    width: 250px;
+    width: 100%;
 }
 
 .country-img img {
@@ -140,6 +141,7 @@ button {
 }
 
 .country-details {
+    width: 100%;
     padding: 20px 25px;
 }
 
